@@ -14,5 +14,15 @@ fields:
 - type: text
   name: slug
   label: slug
+- name: tekst
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Текст
 pages:
+- docs/editing-in-forestry.md
 - docs/editing-in-forestry.md
